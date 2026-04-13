@@ -1,0 +1,11 @@
+node_modules/
+cypress/videos/
+cypress/screenshots/
+results/
+.env
+.DS_Store
+*.log
+.nyc_output
+coverage/
+dist/
+build/

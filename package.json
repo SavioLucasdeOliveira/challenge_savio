@@ -1,0 +1,25 @@
+{
+  "name": "qa-challenge-magento",
+  "version": "1.0.0",
+  "description": "Q.A Challenge Magento - Testes automatizados E2E com Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cypress:open": "cypress open",
+    "test:report": "cypress run --reporter mocha-junit-reporter"
+  },
+  "keywords": [
+    "qa",
+    "testing",
+    "cypress",
+    "magento",
+    "e2e"
+  ],
+  "author": "Savio Oliveira",
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "cypress": "^15.13.1",
+    "mocha-junit-reporter": "^2.2.1"
+  }
+}
